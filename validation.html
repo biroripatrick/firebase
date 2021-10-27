@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <title>validation in the firebase as the database</title>
+  <script src="https://www.gstatic.com/firebasejs/5.0.3/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.0.3/firebase-firestore.js"></script>
+</head>
+
+
+<body>
+  <center>
+    <h1>firebase database</h1>
+  </center>
+  <hr>
+  <form>
+  <div class="container">
+      First name: <input type="text" id="fname" placeholder="FirstName" size="9">
+      <br>
+      last name:<input type="text" id="lname" placeholder="LastName"size="9" style="margin-left:11px;" >
+      <br>
+      Age:<input type="text" id="age" placeholder="Age"size="9"style="margin-left:44px;" ><br>
+      
+      <br>
+      <button  name="submit"  id="btnsubmit"style="margin-left:70px;color:#e234;font-size:23px;background-color:#fff12;">add</button>
+      <br>
+   </form>
+  </div>
+     <h1>report</h1>
+    <ol id="user-list"></ol> 
+    
+<script src="main.js"></script>
+</body>
+</html>
